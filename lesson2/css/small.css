@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body, p, a, ul, li {
+	margin: 0;
+	padding: 0
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: 960px
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Noto Sans', sans-serif
+}
+
+img {
+	width: 100%
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #CCFAC4;
+	margin: 1rem;
+	padding: 1em
+}
