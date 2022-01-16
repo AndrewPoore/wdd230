@@ -5,6 +5,13 @@ body, p, a, ul, li {
 	padding: 0
 }
 
+header {
+	margin: 1rem;
+	padding: 2rem;
+	text-align: center;
+	background-color: #FFFD8F;
+}
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -19,12 +26,29 @@ img {
 	width: 100%
 }
 
+a {
+	margin: 1rem;
+}
+
 section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: #CCFAC4;
+	background-color: #FFFD8F;
 	margin: 1rem;
 	padding: 1em
+}
+
+p {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+footer {
+	background-color: #FFFD8F;
+	grid-column: 1/3;
+	text-align: center;
+	margin: 1rem;
+	padding: 1rem;
 }
