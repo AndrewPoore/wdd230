@@ -15,7 +15,7 @@ header {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-	max-width: 960px
+	max-width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6, a {
@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6, a {
 
 img {
 	width: 100%
-	padding: 1rem;
 }
 
 a {
@@ -35,15 +34,11 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 	text-align: center;
 	background-color: #FFFD8F;
 	margin: 1rem;
-	padding: 1em
-}
-
-p {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	padding: 1em;
 }
 
 footer {
