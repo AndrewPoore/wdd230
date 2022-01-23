@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans&display=swap');
+
+:root {
+	--heading: 'Itim', cursive;
+	--text: 'Noto Sans', sans-serif;
+	--1:#B8DBD9;
+	--2:#F4F4F9;
+	--3:#586F7C;
+}
+
+/* Base Styles */
+body {
+	background-color: var(--3);
+}
+
+header {
+	background-color: var(--1);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+
+ul {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+li {
+	list-style-type: none;
+}
+
+main {
+	background-color: var(--1);
+	max-width: 960px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem;
+}
+
+footer {
+	padding: 1rem;
+	font-family: var(--heading);
+	background-color: var(--1);
+	margin-top: 1rem;
+	text-align: center;
+}
+
+/* fonts */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading);
+}
+
+p, a, li, span {
+	font-family: var(--text);
+}
+
+footer p, span, a {
+	font-family: var(--heading);
+}
+
+img {
+max-width: 100%;
+}
+
+#secondary {
+	font-family: var(--text);
+}
