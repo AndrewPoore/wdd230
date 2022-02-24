@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* #E3E7D3 #BDC2BF black lettering */
+
+main {
+	font-family: 'Ubuntu', sans-serif;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	width: 100%;
+}
+
+thead, tr {
+	text-align: left;
+}
+
+tr:nth-child(odd) {
+	background-color: #BDC2BF;
+}
+
+tr:nth-child(even) {
+	background-color: #E3E7D3;
+}
+
+th {
+	background-color: #fff;
+}
+
+#f {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+td {
+	padding: .5rem;
+}
