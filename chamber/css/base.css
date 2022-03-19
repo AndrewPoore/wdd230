@@ -156,3 +156,12 @@ footer {
 footer > span {
 	text-align: center;
 }
+
+.a {
+	color: #000;
+}
+
+.a:hover {
+	color: #BDA384;
+	background-color: #000;
+}
