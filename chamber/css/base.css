@@ -153,9 +153,6 @@ footer {
 	align-items: center;
 }
 
-#copyright {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 1em;
+footer > span {
+	text-align: center;
 }
