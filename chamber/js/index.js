@@ -20,3 +20,22 @@ function dropDown() {
 
 //Modification Date
 document.querySelector('#mod').textContent = document.lastModified;
+
+//Mondays and Tuesdays if statement
+var dayOfWeek = new Date().getDay();
+
+function meetGreet() {
+    if (dayOfWeek == 1) {
+        let output = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        document.querySelector('#if').innerHTML = output;
+    }
+
+    else if (dayOfWeek == 2) {
+let output = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        document.querySelector('#if').innerHTML = output;
+    }
+
+}
+window.onload = function() {
+    meetGreet();
+};
