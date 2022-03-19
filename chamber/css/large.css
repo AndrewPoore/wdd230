@@ -1,0 +1,35 @@
+@media only screen and (min-width: 992px) {
+	main {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+
+#scenery {
+		grid-column: 2/4;
+		grid-row: 1/2;
+}
+
+#hero {
+	width: 100%;
+	height: auto;
+}
+
+#news {
+	grid-column: 2/4;
+}
+
+#dropDown {
+	display: none;
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.icon {
+	max-width: 150px;
+}
+}
